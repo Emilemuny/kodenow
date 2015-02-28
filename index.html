@@ -1,0 +1,364 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kodenow</title>
+	<meta name="title" content="Kodenow" />
+	<meta name="description" content="Emile's portfolio website" />
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="author" content="Emile M.">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/onepagescroll.js"></script>
+	<link href='style/onepage-scroll.css' rel='stylesheet' type='text/css'>
+	<link href='style/style.css' rel='stylesheet' type='text/css'>
+	<link href='style/style1.css' rel='stylesheet' type='text/css'>
+	<link href='style/animate.css' rel='stylesheet' type='text/css'>
+	<link href='foundation-5-5.1/css/foundation.css' rel='stylesheet' type='text/css'>
+	<link href='foundation-5-5.1/css/foundation.min.css' rel='stylesheet' type='text/css'>
+	<link href='foundation-5-5.1/css/normalize.css' rel='stylesheet' type='text/css'>
+	<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://cdn.jsdelivr.net/zurb/foundation-apps-1.0.3.min.css' rel='stylesheet' type='text/css'>
+	<script src="http://cdn.jsdelivr.net/zurb/foundation-apps-1.0.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
+	<style>
+
+
+	#share-buttons img {
+		width: 35px;
+		padding: 5px;
+		border: 0;
+		box-shadow: 0;
+		display: inline;
+	}
+
+
+
+	#MY_VIDEO_1 {
+		opacity: 0.9;
+		background-size: cover;
+		width: auto; height: auto; z-index: -100;
+		margin-left: -960px;
+		margin-top: -580px;
+		position: relative;
+		right: -700px;
+	}
+	.stopfade {
+		opacity: .;
+	}
+
+	#polina {
+		font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+		font-weight:100;
+		background: rgba(0,0,0,0.3);
+		color: white;
+		padding: 1.6rem;
+		width: 43%;
+		margin:0.9rem;
+		float: right;
+		font-size: 1.9rem;
+		position: relative;
+		top: -140px;
+		right: -100px;
+		margin-top: -850px;
+		margin-left: -700px;
+
+	}
+	#polina h1 {
+
+		letter-spacing: 1px;
+		font-size: 16px;
+		padding: 10px 10px;
+		display: inline-block;
+		line-height: 40%;
+
+		border-radius: 3px;
+		position: relative;
+
+	}
+	#polina button {
+		display: block;
+		width: 80%;
+		padding: .4rem;
+		border: none;
+		margin: 1rem auto;
+		font-size: 1.3rem;
+		background: rgba(255,255,255,0.23);
+		color: #fff;
+		border-radius: 3px;
+		cursor: pointer;
+		transition: .3s background;
+	}
+	#polina button:hover {
+		background: rgba(0,0,0,0.5);
+	}
+
+	a {
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		background:rgba(0,0,0,0.5);
+		padding: .5rem;
+		transition: .6s background;
+	}
+	a:hover{
+		background:rgba(0,0,0,0.9);
+	}
+	.circular img{
+		width: 150px;
+		height: 150px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		background: url(emile.jpg) no-repeat;
+	}
+
+	.circular img {
+		opacity: 2;
+		filter: alpha(opacity=2);
+	}
+	.icon-button {
+		background-color: white;
+		border-radius: 3.6rem;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 2.0rem;
+		height: 3.6rem;
+		line-height: 3.6rem;
+		margin: 0 5px;
+		position: relative;
+		text-align: center;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		width: 3.6rem;
+	}
+
+	/* Circle */
+	.icon-button span {
+		border-radius: 0;
+		display: block;
+		height: 0;
+		left: 50%;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 0;
+	}
+	.icon-button:hover span {
+		width: 3.6rem;
+		height: 3.6rem;
+		border-radius: 3.6rem;
+		margin: -1.8rem;
+	}
+	.twitter span {
+		background-color: #4099ff;
+	}
+	.facebook span {
+		background-color: #3B5998;
+	}
+	.google-plus span {
+		background-color: #db5a3c;
+	}
+
+	/* Icons */
+	.icon-button i {
+		background: none;
+		color: white;
+		height: 3.6rem;
+		left: 0;
+		line-height: 3.6rem;
+		position: absolute;
+		top: 0;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 3.6rem;
+		z-index: 10;
+	}
+	.icon-button .icon-twitter {
+		color: #4099ff;
+	}
+	.icon-button .icon-facebook {
+		color: #3B5998;
+	}
+	.icon-button .icon-google-plus {
+		color: #db5a3c;
+	}
+	.icon-button:hover .icon-twitter,
+	.icon-button:hover .icon-facebook,
+	.icon-button:hover .icon-google-plus {
+		color: white;
+	}
+
+	</style>
+
+
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			
+
+				<section class="page2">
+					<div class="page_container">
+            <h1>Portofolio</h1>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="dark card">
+									<img src="images/image2.jpg" width="100" height="100">
+									<div class="card-divider">
+										Current or finished projects <a href="http://github.com/emilemuny"><sub>all available on Github</sub></a>
+									</div>
+									<div class="card-section">
+										<h4>Projects:</h4>
+										<p><a href="https://github.com/Emilemuny/miniTwitter">SocialBoard:</a>a Twitter app that ranks users tweets favorites and retweets.(used twitter REST APIs, Nodejs, mongoose, express, passport, bcrypt, hbs) </p>
+										<p><a href="https://github.com/Emilemuny/Weather">Weather API:</a> App that takes a user's location and display the area/zipcode webcams weather images.(used geolocation and wunderground weather API).
+										</p>
+										<p><a href="https://github.com/Emilemuny/Memory-Game-">Memory-Game:</a> Popular memory game, user flips two matched cards until n number are all finished before the timer.(used Javascript, Jquery, jade and less)  </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="dark card">
+									<img src="https://themedia10.files.wordpress.com/2014/06/la-et-cm-dan-castellaneta-homer-simpson-to-sta-001.jpg" width="100" height="100">
+									<div class="card-divider">
+										Full stack web developer @coding house
+									</div>
+									<div class="card-section">
+										<h4>MEAN stack and Ruby on rails</h4>
+										<p>Currently working as a freelance developer working on various projects building web apps using MEAN stack and Ruby on rails. Proficient in different technologies
+											ranging from backend (databases, MongoDB, PostgreSQL and MySQL, Nodejs, Express.js, Hapi, rails, APIs) to frontend frameworks AngularJS, jQuery, Html5, CSS, bootstrap and other various JS frameworks. </p>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="col-md-4">
+									<div class="dark card">
+										<img src="http://www.lossimpsonsonline.com.ar/images/personajes/bart-simpson/bart-simpson.png" width="100" height="100">
+										<div class="card-divider">
+											Technical support specialist
+										</div>
+										<div class="card-section">
+											<h4>IT support experience, 2007-2014</h4>
+											<p>I previously worked as a helpdesk support specialist for various corporates where i worked in a various teams providing IT support ranging from repairing computers, systems upgrades, remote mngt, encryption, security, networks, servers and all in between.</p>
+											<p>Until few months ago, i decided to pursue a career in software development where i can develop great applications that are cross-platform, secure, easy to use and with great design. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						<div class="row">
+							<div class="col-md-2 col-sm-2 col-sm-offset-1 process-item wow fadeInLeft animated" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s;">
+								<i class="process-icon fa fa-comments-o"></i>
+								<p class="text-center">Think</p>
+								<i class="arrow-right fa fa-chevron-right visible-md visible-lg"></i>
+							</div><!--/.process-item -->
+							<div class="col-md-2 col-sm-2 process-item wow fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation-delay: 0.3s;">
+								<i class="process-icon fa fa-pencil-square-o"></i>
+								<p class="text-center">Write</p>
+								<i class="arrow-right fa fa-chevron-right visible-md visible-lg"></i>
+							</div><!--/.process-item -->
+							<div class="col-md-2 col-sm-2 process-item wow fadeInLeft animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation-delay: 0.5s;">
+								<i class="process-icon fa fa-code"></i>
+								<p class="text-center">Develop</p>
+								<i class="arrow-right fa fa-chevron-right visible-md visible-lg"></i>
+							</div><!--/.process-item -->
+							<div class="col-md-2 col-sm-2 process-item wow fadeInLeft animated" data-wow-delay="0.7s" style="visibility: visible; -webkit-animation-delay: 0.7s;">
+								<i class="process-icon fa fa-check-square-o"></i>
+								<p class="text-center">Test</p>
+								<i class="arrow-right fa fa-chevron-right visible-md visible-lg"></i>
+							</div><!--/.process-item -->
+							<div class="col-md-2 col-sm-2 process-item wow fadeInLeft animated" data-wow-delay="0.9s" style="visibility: visible; -webkit-animation-delay: 0.9s;">
+								<i class="process-icon fa fa-send-o"></i>
+								<p class="text-center">Deploy</p>
+							</div><!--/.process-item -->
+						</div>
+					</div>
+        </section>
+
+						<section class="page3">
+
+							<div class="page_container">
+								<div class="row">
+									<div class="span9">
+										Level 1 column
+										<div class="row">
+											<div class="span6">Level 2</div>
+											<div class="span3">Level 2</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+						</section>
+
+
+				<div class="back">
+					<p>Hi, Welcome to Kodenow :) Please drive around, check out my portfolio, you're also welcome to ping me for any opportunities, Cheers!</p>
+				</div>
+				</div>
+				</div>
+				<nav class="social">
+					<ul>
+						<li><a href="http://twitter.com/emilemuny">Twitter <i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/emilemunyangabe">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://github.com/Emilemuny">Github <i class="fa fa-github"></i></a></li>
+						<li><a href="http://stackoverflow.com/users/4467132/emile-muny">Stackoverflow <i class="fa fa-stack-overflow"></i></a></li>
+					</ul>
+				</nav>
+
+				<script>
+				onePageScroll(".main", {
+					sectionContainer: "section",
+					loop: true,
+					responsiveFallback: false
+				});
+
+				</script>
+				<script src="js/wow.min.js"></script>
+				<script src"js/wow.js"></script>
+				<script src="foundation-5.5.1/js/vendor/jquery.js"></script>
+				<script src="foundation-5.5.1/js/foundation.min.js"></script>
+				<script src="foundation-5.5.1/js/foundation/foundation.reveal.js"></script>
+				<script src="foundation-5.5.1/js/foundation/foundation.js"></script>
+				<script src="bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+				<script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+				<script>
+				wow = new WOW(
+					{
+						boxClass:     'wow',      // default
+						animateClass: 'animated', // default
+						offset:       0,          // default
+						mobile:       true,       // default
+						live:         true        // default
+					}
+				)
+				wow.init();
+				</script>
+
+
+
+			</body>
+		</html>
