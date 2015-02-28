@@ -19,18 +19,14 @@
 	<link href='style/style.css' rel='stylesheet' type='text/css'>
 	<link href='style/style1.css' rel='stylesheet' type='text/css'>
 	<link href='style/animate.css' rel='stylesheet' type='text/css'>
-	<link href='foundation-5-5.1/css/foundation.css' rel='stylesheet' type='text/css'>
-	<link href='foundation-5-5.1/css/foundation.min.css' rel='stylesheet' type='text/css'>
-	<link href='foundation-5-5.1/css/normalize.css' rel='stylesheet' type='text/css'>
 	<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
 	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
-	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel='stylesheet prefetch' href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href='http://cdn.jsdelivr.net/zurb/foundation-apps-1.0.3.min.css' rel='stylesheet' type='text/css'>
 	<script src="http://cdn.jsdelivr.net/zurb/foundation-apps-1.0.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
+
 	<style>
 
 
@@ -209,64 +205,93 @@
 
 	</style>
 
+	<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/4.12/video.js"></script>
 
 
 </head>
 <body>
+
+
 	<div class="wrapper">
 		<div class="main">
-			
+
+			<section class="page1">
+
+				<div class="page_container">
+					<h1>Welcome to Kodenow.com</h1>
+					<video id="MY_VIDEO_1" class="video-js vjs-default-skin" width="100%" height="100%" autoplay=true poster="MY_VIDEO_POSTER.jpg"
+					data-setup="{"autoplay": true}" loop>
+					<source src="images/kn.mp4" type='video/mp4'>
+
+
+					</video>
+					<div id="polina">
+						<h1>Emile Munyangabe</h1>
+						<div class="circular"><img src="images/emile.jpg" alt="" /></div>
+
+						<p>Full stack web developer</p>
+						<p><a href="">Portofolio</a>
+							<p>I'm a full stack web developer, dedicated to developing web apps with beautiful,reusable and maintenable code.</p>
+							<p>I have years of IT experience in technical support, desktop,server/network troubleshooting, and developing Web apps.</p>
+							<button>Hire me</button>
+						</div>
+					</div>
+
+				</section>
 
 				<section class="page2">
-					<div class="page_container">
-            <h1>Portofolio</h1>
-						<div class="row">
+
+<div class="page_container">
+					<h1>Portofolio</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="dark card">
+								<img src="https://themedia10.files.wordpress.com/2014/06/la-et-cm-dan-castellaneta-homer-simpson-to-sta-001.jpg" width="100" height="100">
+								<div class="card-divider">
+									Full stack web developer @coding house
+								</div>
+								<div class="card-section">
+									<h4>MEAN stack and Ruby on rails</h4>
+									<p>Currently working as a freelance developer working on various projects building web apps using MEAN stack and Ruby on rails. Proficient in different technologies
+										ranging from backend (databases, MongoDB, PostgreSQL and MySQL, Nodejs, Express.js, Hapi, rails, APIs) to frontend frameworks AngularJS, jQuery, Html5, CSS, bootstrap and other various JS frameworks. </p>
+									<p>I am currently looking to join a great company where I can contribute my skills, positive and hard-work attitude also build web apps that makes life easier for people.<p>
+									</div>
+								</div>
+							</div>
+
+
 							<div class="col-md-4">
 								<div class="dark card">
-									<img src="images/image2.jpg" width="100" height="100">
+									<h4>Projects/Apps</h4>
 									<div class="card-divider">
-										Current or finished projects <a href="http://github.com/emilemuny"><sub>all available on Github</sub></a>
+										Check out my work @<a href="http://github.com/emilemuny"><sub>Github</sub></a>
 									</div>
 									<div class="card-section">
-										<h4>Projects:</h4>
+
 										<p><a href="https://github.com/Emilemuny/miniTwitter">SocialBoard:</a>a Twitter app that ranks users tweets favorites and retweets.(used twitter REST APIs, Nodejs, mongoose, express, passport, bcrypt, hbs) </p>
-										<p><a href="https://github.com/Emilemuny/Weather">Weather API:</a> App that takes a user's location and display the area/zipcode webcams weather images.(used geolocation and wunderground weather API).
+										<p><a href="https://github.com/Emilemuny/Weather">Weather API:</a> App that takes a user's location and display the area's webcam weather images.(used geolocation and wunderground weather API).
 										</p>
 										<p><a href="https://github.com/Emilemuny/Memory-Game-">Memory-Game:</a> Popular memory game, user flips two matched cards until n number are all finished before the timer.(used Javascript, Jquery, jade and less)  </p>
+
+
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="dark card">
-									<img src="https://themedia10.files.wordpress.com/2014/06/la-et-cm-dan-castellaneta-homer-simpson-to-sta-001.jpg" width="100" height="100">
+									<img src="http://www.lossimpsonsonline.com.ar/images/personajes/bart-simpson/bart-simpson.png" width="100" height="100">
 									<div class="card-divider">
-										Full stack web developer @coding house
+										Technical support specialist
 									</div>
 									<div class="card-section">
-										<h4>MEAN stack and Ruby on rails</h4>
-										<p>Currently working as a freelance developer working on various projects building web apps using MEAN stack and Ruby on rails. Proficient in different technologies
-											ranging from backend (databases, MongoDB, PostgreSQL and MySQL, Nodejs, Express.js, Hapi, rails, APIs) to frontend frameworks AngularJS, jQuery, Html5, CSS, bootstrap and other various JS frameworks. </p>
-										</div>
-									</div>
-								</div>
-
-
-
-								<div class="col-md-4">
-									<div class="dark card">
-										<img src="http://www.lossimpsonsonline.com.ar/images/personajes/bart-simpson/bart-simpson.png" width="100" height="100">
-										<div class="card-divider">
-											Technical support specialist
-										</div>
-										<div class="card-section">
-											<h4>IT support experience, 2007-2014</h4>
-											<p>I previously worked as a helpdesk support specialist for various corporates where i worked in a various teams providing IT support ranging from repairing computers, systems upgrades, remote mngt, encryption, security, networks, servers and all in between.</p>
-											<p>Until few months ago, i decided to pursue a career in software development where i can develop great applications that are cross-platform, secure, easy to use and with great design. </p>
-										</div>
+										<h5>IT support experience, 2007-2014</h5>
+										<p>I previously worked as a helpdesk support specialist for various corporates where i worked in a various teams providing IT support ranging from repairing computers, systems upgrades,patch mngt to remote mngt, encryption, networks and servers.</p>
+										<p>Until few months ago, i decided to pursue a career in software development where i can develop great apps that are cross-platform, secure, easy to use and with great design. </p>
 									</div>
 								</div>
 							</div>
-
+						</div>
 						<div class="row">
 							<div class="col-md-2 col-sm-2 col-sm-offset-1 process-item wow fadeInLeft animated" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s;">
 								<i class="process-icon fa fa-comments-o"></i>
@@ -293,72 +318,47 @@
 								<p class="text-center">Deploy</p>
 							</div><!--/.process-item -->
 						</div>
-					</div>
-        </section>
-
-						<section class="page3">
-
-							<div class="page_container">
-								<div class="row">
-									<div class="span9">
-										Level 1 column
-										<div class="row">
-											<div class="span6">Level 2</div>
-											<div class="span3">Level 2</div>
-										</div>
-									</div>
-								</div>
+</div>
 
 
-							</div>
 
-						</section>
+					<!-- </section>
+
+					<section class="page3">
+						<div class="page_container">
+							<h1>HELLO PAGE3</h1>
+						</div>
+
+					</section> -->
 
 
-				<div class="back">
-					<p>Hi, Welcome to Kodenow :) Please drive around, check out my portfolio, you're also welcome to ping me for any opportunities, Cheers!</p>
+
+
+
+
 				</div>
-				</div>
-				</div>
-				<nav class="social">
-					<ul>
-						<li><a href="http://twitter.com/emilemuny">Twitter <i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/emilemunyangabe">LinkedIn <i class="fa fa-linkedin"></i></a></li>
-						<li><a href="http://github.com/Emilemuny">Github <i class="fa fa-github"></i></a></li>
-						<li><a href="http://stackoverflow.com/users/4467132/emile-muny">Stackoverflow <i class="fa fa-stack-overflow"></i></a></li>
-					</ul>
-				</nav>
+			</div>
+			<div class="back">
+				<p>Hi, Welcome to Kodenow :) Please drive around, check out my portfolio, you're also welcome to ping me for any opportunities, Cheers!</p>
 
-				<script>
-				onePageScroll(".main", {
-					sectionContainer: "section",
-					loop: true,
-					responsiveFallback: false
-				});
+			</div>
+			<nav class="social">
+				<ul>
+					<li><a href="http://twitter.com/emilemuny">Twitter <i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/emilemunyangabe">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+					<li><a href="http://github.com/Emilemuny">Github <i class="fa fa-github"></i></a></li>
+					<li><a href="http://stackoverflow.com/users/4467132/emile-muny">Stackoverflow <i class="fa fa-stack-overflow"></i></a></li>
+				</ul>
+			</nav>
 
-				</script>
-				<script src="js/wow.min.js"></script>
-				<script src"js/wow.js"></script>
-				<script src="foundation-5.5.1/js/vendor/jquery.js"></script>
-				<script src="foundation-5.5.1/js/foundation.min.js"></script>
-				<script src="foundation-5.5.1/js/foundation/foundation.reveal.js"></script>
-				<script src="foundation-5.5.1/js/foundation/foundation.js"></script>
-				<script src="bootstrap-3.3.2-dist/js/bootstrap.js"></script>
-				<script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
-				<script>
-				wow = new WOW(
-					{
-						boxClass:     'wow',      // default
-						animateClass: 'animated', // default
-						offset:       0,          // default
-						mobile:       true,       // default
-						live:         true        // default
-					}
-				)
-				wow.init();
-				</script>
+			<script>
+			onePageScroll(".main", {
+				sectionContainer: "section",
+				loop: true,
+				responsiveFallback: false
+			});
 
+			</script>
 
-
-			</body>
+		</body>
 		</html>
