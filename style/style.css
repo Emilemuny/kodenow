@@ -302,12 +302,31 @@ header {
   color: #FFF;
 }
 
+.main section.page3 {
+  background: #555557 url() no-repeat center -150px ;
+}
+
+.row1 {
+  width: 100px;
+}
+
+.main section .page_container3 {
+  position: relative;
+  top: 3%;
+
+  max-width: 1100px;
+  z-index: 3;
+}
+
+
+
+
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
   height: auto;
 }
 
-body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll {
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
   padding: 20px;
   margin-top: 150px;
   -webkit-box-sizing: border-box;
